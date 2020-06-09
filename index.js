@@ -8,9 +8,9 @@ const returnLastTwoDrivers = function (drivers) {
 };
 const selectingDrivers = [ returnFirstTwoDrivers, returnLastTwoDrivers ];
 
-const createFareMultiplier = function (multiInput) {
+const createFareMultiplier = function (multiplier) {
   return function (value) {
-    return multiInpute * value;
+    return multiplier * value;
   };
 };
 
